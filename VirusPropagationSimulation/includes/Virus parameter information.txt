@@ -1,0 +1,13 @@
+name, 						Nombre del virus
+contamination_rate,				Rapidez de propagación del virus a los alrededores
+contagion_probability,				Probabilidad de contraer el virus luego de poseer suficiente carga viral
+contamination_radius(dm),			Distancia de contagio del virus en metros
+average_incubation_time,			Tiempo promedio de incubación antes de comenzar a ser infeccioso
+average_infeccious_time,			Tiempo promedio de duración del virus luego de ser infeccioso
+asymphtomatic_probability,			Probabilidad de ser asintomático al acabar el tiempo de incubación
+symphtomatic_probability_if_asymph,		Probabilidad de volverse sintomático siendo asintomático
+min_symphtomatic_transition_time,		Tiempo mínimo a partir del cual una persona asintomárica se puede volver sintomática
+get_serious_condition_probability,		Probabilidad que tienen las personas enfermas de entrar en estado grave
+get_critical_condition_porbability,		Probabilidad que tienen las personas graves de entrar en estado crítico
+death_probability,				Probabilidad que tienen las personas graves de morir
+inmunity_probability_after_recover		Probabilidad de volverse inmune al virus luego de recuperarse

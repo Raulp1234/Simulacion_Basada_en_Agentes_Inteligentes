@@ -1,0 +1,2 @@
+name,contamination_rate,contagion_probability,contamination_radius_(dm),average_incubation_time,average_infeccious_time,asymphtomatic_probability,symphtomatic_probability_if_asymph,min_symphtomatic_transition_time,get_serious_condition_probability,get_critical_condition_porbability,death_probability,inmunity_probability_after_recover
+Peste amarilla,0.4,1,100,1,1,0,0,0,0.01,0.001,0.001,0.8
