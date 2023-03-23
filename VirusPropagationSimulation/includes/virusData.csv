@@ -1,0 +1,2 @@
+name,contamination_rate,contagion_probability,contamination_radius_(dm),average_incubation_time,average_infeccious_time,asymphtomatic_probability,symphtomatic_probability_if_asymph,min_symphtomatic_transition_time,get_serious_condition_probability,get_critical_condition_porbability,death_probability,inmunity_probability_after_recover
+Omicrom,0.04,0.73,10,2,5,0.5,0.2,1,0.001,0.00001,0.0001,0.8
