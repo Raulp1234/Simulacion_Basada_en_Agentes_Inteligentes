@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Simulación basada en agentes inteligentes con BDI " company="cujae" webLink="http://" view-date="2023-02-13" view-index="0" gantt-divider-location="386" resource-divider-location="300" version="2.8.6" locale="es">
+    <description><![CDATA[Simulación basada en agentes inteligentes con BDI para la predicción del comportamiento de un virus en Cuba]]></description>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="230" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="80" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="57" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="8" name="Reunión de Inicio del Proyecto" color="#8cb6ce" meeting="false" start="2023-02-13" duration="1" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <depend id="101" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="101" name="Elaborar Plan de Trabajo" color="#8cb6ce" meeting="false" start="2023-02-14" duration="1" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true">
+            <depend id="116" type="1" difference="0" hardness="Strong"/>
+            <task id="261" name="Identificar Riesgos del Proyecto" color="#8cb6ce" meeting="false" start="2023-02-14" duration="1" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true">
+                <task id="262" name="Elaborar plan de contingencia" color="#8cb6ce" meeting="false" start="2023-02-14" duration="1" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="263" name="Elaborar plan de mitigación" color="#8cb6ce" meeting="false" start="2023-02-14" duration="1" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="116" name="Definir estandar de trabajo" color="#8cb6ce" meeting="false" start="2023-02-14" duration="1" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Elaborar un informe con la invesigación realizada del tema" color="#8cb6ce" meeting="false" start="2023-02-14" duration="7" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Seleccionar y fundamentar la selección de tecnologías a utilizar en el desarrollo de la solución" color="#8cb6ce" meeting="false" start="2023-02-20" duration="4" complete="100" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <task id="28" name="Seleccionar las tecnologías a utilizar" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="100" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" name="Fundamentar el uso de las tecnologías seleccionadas" color="#8cb6ce" meeting="false" start="2023-02-21" duration="3" complete="100" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="43" name="Modelado del Negocio y Analisis de Requisitos" color="#8cb6ce" meeting="false" start="2023-02-20" duration="7" complete="100" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="53" type="2" difference="0" hardness="Strong"/>
+            <task id="46" name="Realizar el Modelo de Dominio" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="100" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+                <depend id="47" type="1" difference="0" hardness="Strong"/>
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="47" name="Realizar el Glosario de Términos" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="100" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" name="Implantar las Reglas del Negocio" color="#8cb6ce" meeting="false" start="2023-02-21" duration="2" complete="100" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" name="Definir Requisitos Funcionales y no Funcionales" color="#8cb6ce" meeting="false" start="2023-02-23" duration="3" complete="100" thirdDate="2023-02-23" thirdDate-constraint="0" expand="true"/>
+            <task id="54" name="Realizar Diagrama de Actividades" color="#8cb6ce" meeting="false" start="2023-02-24" duration="3" complete="100" thirdDate="2023-02-24" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="53" name="Reunión con el tutor" color="#8cb6ce" meeting="false" start="2023-02-28" duration="1" complete="100" thirdDate="2023-02-28" thirdDate-constraint="0" expand="true"/>
+        <task id="55" name="Estudiar la simulación que ya está desarrollada" color="#8cb6ce" meeting="false" start="2023-03-01" duration="9" complete="100" thirdDate="2023-03-01" thirdDate-constraint="0" expand="true">
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+            <task id="56" name="Montar la simulación en la herramienta" color="#8cb6ce" meeting="false" start="2023-03-01" duration="1" complete="100" thirdDate="2023-03-01" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Correr la simulación" color="#8cb6ce" meeting="false" start="2023-03-01" duration="1" complete="100" thirdDate="2023-03-01" thirdDate-constraint="0" expand="true"/>
+            <task id="68" name="Probar distintos parámetros en la simulación para ver los cambios" color="#8cb6ce" meeting="false" start="2023-03-01" duration="9" complete="100" thirdDate="2023-03-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="63" name="Incluir nuevas actividades para los agentes de tipo persona" color="#8cb6ce" meeting="false" start="2023-03-11" duration="8" complete="25" thirdDate="2023-03-11" thirdDate-constraint="0" expand="true"/>
+        <task id="73" name="Incluir la arquitectura BDI en la simulación ya desarrollada" color="#8cb6ce" meeting="false" start="2023-03-11" duration="18" complete="0" thirdDate="2023-03-11" thirdDate-constraint="0" expand="true">
+            <depend id="76" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="74" name="Dejar explísito que factores se deben usar como parámetros" color="#8cb6ce" meeting="false" start="2023-03-31" duration="1" complete="0" thirdDate="2023-03-31" thirdDate-constraint="0" expand="true">
+            <depend id="76" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="76" name="Reunión con el tutor" color="#8cb6ce" meeting="false" start="2023-04-01" duration="1" complete="0" thirdDate="2023-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="78" name="Hacer un diseño de experimentos para verificar el comportamiento de la simulación al incorporar la nueva arquitectura BDI" color="#8cb6ce" meeting="false" start="2023-04-01" duration="1" complete="0" thirdDate="2023-04-01" thirdDate-constraint="0" expand="true">
+            <depend id="80" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="80" name="Documentar los experimentos realizados" color="#8cb6ce" meeting="false" start="2023-04-01" duration="1" complete="0" thirdDate="2023-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="86" name="Elaborar Informe de las Prácticas Profecionales" color="#8cb6ce" meeting="false" start="2023-02-14" duration="42" complete="50" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true"/>
+        <task id="87" name="Entregar Informe al tutor" color="#8cb6ce" meeting="false" start="2023-04-03" duration="1" complete="0" thirdDate="2023-04-03" thirdDate-constraint="0" expand="true"/>
+        <task id="88" name="Rectificar señalamientos" color="#8cb6ce" meeting="false" start="2023-04-03" duration="4" complete="0" thirdDate="2023-04-03" thirdDate-constraint="0" expand="true"/>
+        <task id="89" name="Entrega final del Informe de Prácticas" color="#8cb6ce" meeting="false" start="2023-04-07" duration="1" complete="0" thirdDate="2023-04-07" thirdDate-constraint="0" expand="true"/>
+        <task id="90" name="Defensa de la Práctica Profecional" color="#8cb6ce" meeting="false" start="2023-04-10" duration="6" complete="0" thirdDate="2023-04-10" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Raúl Pérez" function="1" contacts="rperezr@cujae.edu.cu" phone="54363586"/>
+        <resource id="1" name="Raúl Pérez" function="2" contacts="rperezr@cujae.edu.cu" phone="54363586"/>
+        <resource id="2" name="Raúl Pérez" function="3" contacts="rperezr@cujae.edu.cu" phone="54363586"/>
+        <resource id="3" name="Raúl Pérez" function="4" contacts="rperezr@cujae.edu.cu" phone="54363586"/>
+        <resource id="4" name="Raúl Pérez" function="5" contacts="rperezr@cujae.edu.cu" phone="54363586"/>
+        <resource id="5" name="Raúl Pérez" function="6" contacts="rperezr@cujae.edu.cu" phone="54363586"/>
+    </resources>
+    <allocations>
+        <allocation task-id="8" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="0" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="76" resource-id="0" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="87" resource-id="0" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="86" resource-id="0" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="89" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="261" resource-id="1" function="2" responsible="true" load="20.0"/>
+        <allocation task-id="262" resource-id="1" function="2" responsible="true" load="20.0"/>
+        <allocation task-id="263" resource-id="1" function="2" responsible="true" load="20.0"/>
+        <allocation task-id="101" resource-id="1" function="2" responsible="true" load="40.0"/>
+        <allocation task-id="8" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="116" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="4" responsible="true" load="70.0"/>
+        <allocation task-id="8" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="4" responsible="true" load="10.0"/>
+        <allocation task-id="27" resource-id="3" function="4" responsible="true" load="10.0"/>
+        <allocation task-id="46" resource-id="3" function="4" responsible="true" load="10.0"/>
+        <allocation task-id="47" resource-id="3" function="4" responsible="true" load="10.0"/>
+        <allocation task-id="48" resource-id="3" function="4" responsible="true" load="10.0"/>
+        <allocation task-id="51" resource-id="3" function="4" responsible="true" load="20.0"/>
+        <allocation task-id="54" resource-id="3" function="4" responsible="true" load="80.0"/>
+        <allocation task-id="8" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="4" function="5" responsible="true" load="30.0"/>
+        <allocation task-id="73" resource-id="4" function="5" responsible="true" load="70.0"/>
+        <allocation task-id="74" resource-id="4" function="5" responsible="true" load="30.0"/>
+        <allocation task-id="8" resource-id="5" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="68" resource-id="5" function="6" responsible="true" load="80.0"/>
+        <allocation task-id="78" resource-id="5" function="6" responsible="true" load="50.0"/>
+        <allocation task-id="80" resource-id="5" function="6" responsible="true" load="50.0"/>
+        <allocation task-id="88" resource-id="5" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="5" function="6" responsible="true" load="10.0"/>
+        <allocation task-id="57" resource-id="5" function="6" responsible="true" load="10.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Jefe de Proyecto"/>
+        <role id="2" name="Planificador "/>
+        <role id="3" name="Gestor de la Configuración"/>
+        <role id="4" name="Analista-Arquitecto"/>
+        <role id="5" name="Programador"/>
+        <role id="6" name="Probador-Especialista de Calidad "/>
+    </roles>
+</project>
